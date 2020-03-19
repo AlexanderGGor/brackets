@@ -1,13 +1,13 @@
 module.exports = function check(line, config) {
   let brackets = getBrackets(config);
   for (var i = 0; i < brackets.length;) {
-    log(brackets[i] + "  " + line);
+   // log(brackets[i] + "  " + line);
     if (line.indexOf(brackets[i]) !== -1) {
       line = line.replace(brackets[i], '');
       i = 0;
     }
     else i++;
-    log(line);
+    //log(line);
   }
   return !line;
 }
