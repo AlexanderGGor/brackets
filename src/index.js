@@ -29,7 +29,7 @@ function check1(line, config) {
   return !line;
 }
 const getBrackets = config => config.map(item => item.join(''));
-const log = str => console.log(str);
+/*const log = str => console.log(str);
 const config1 = [['(', ')']];
 const config2 = [['(', ')'], ['[', ']']];
 const config3 = [['(', ')'], ['[', ']'], ['{', '}']];
@@ -44,7 +44,7 @@ var getBrackets1 = function (config) {
     //log(item + " => " + item.join(''));
     return item.join('');
   });
-}
+}*/
 
 
 //log(check('([{}])', config3));
